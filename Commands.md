@@ -3,7 +3,14 @@
 - `\l` view all the databases
 - `\d` display the feautures and details of a table
 - `SELECT * FROM ({table_name});` shows what is inside the table
-- `CREATE TABLE {table_name}();`
+- `CREATE DATABASE {databasename};`
+- `DROP DATABASE databasename;`
+- `CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);`
 - `ALTER TABLE table_name ADD COLUMN column_name TYPE;`
 - `ALTER TABLE second_table RENAME COLUMN name TO username;` 
 - `INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);` entering data 
@@ -12,7 +19,6 @@
 - `DROP TABLE table_name`
 - `ALTER DATABASE database_name RENAME TO new_database_name;`
 - `\c database_name` change to another database
-- `DROP DATABASE second_database` 
 - `ALTER TABLE table_name ADD PRIMARY KEY(column_name);`
 - `ALTER TABLE table_name ADD COLUMN column_name DATATYPE REFERENCES referenced_table_name(referenced_column_name);`
 - `ALTER TABLE {table_name} ADD UNIQE({column_name});`
