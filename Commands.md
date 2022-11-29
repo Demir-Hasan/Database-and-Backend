@@ -11,12 +11,12 @@
     column3 datatype,
    ....
 );`
+- `DROP TABLE table_name`
 - `ALTER TABLE table_name ADD COLUMN column_name TYPE;`
 - `ALTER TABLE second_table RENAME COLUMN name TO username;` 
 - `INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);` entering data 
 - `SELECT columns FROM table_name;` Viewing data
 - `DELETE FROM table_name WHERE condition;`
-- `DROP TABLE table_name`
 - `ALTER DATABASE database_name RENAME TO new_database_name;`
 - `\c database_name` change to another database
 - `ALTER TABLE table_name ADD PRIMARY KEY(column_name);`
