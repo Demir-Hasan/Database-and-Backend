@@ -1,0 +1,15 @@
+### PostgreSQL
+- `psql --username=freecodecamp --dbname=second_database;`
+- `\l` view all the databases
+- `\d` display tables
+- `CREATE TABLE {table_name}();`
+- `ALTER TABLE table_name ADD COLUMN column_name TYPE;`
+- `ALTER TABLE second_table RENAME COLUMN name TO username;` 
+- `INSERT INTO table_name(column_1, column_2) VALUES(value1, value2);` entering data 
+- `SELECT columns FROM table_name;` Viewing data
+- `SELECT * FROM (second_table);`
+- `DELETE FROM table_name WHERE condition;`
+- `DROP TABLE table_name`
+- `ALTER DATABASE database_name RENAME TO new_database_name;`
+- `\c database_name` change to another database
+- `DROP DATABASE second_database` 
