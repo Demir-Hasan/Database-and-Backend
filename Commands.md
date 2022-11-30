@@ -26,6 +26,7 @@
 - `ALTER TABLE table_name ADD COLUMN column_name DATATYPE CONSTRAINT REFERENCES referenced_table_name(referenced_column_name);`
 - `ALTER TABLE table_name ADD FOREIGN KEY(column_name) REFERENCES referenced_table(referenced_column);`
 - `SELECT * FROM table_1 FULL JOIN table_2 ON table_1.primary_key_column = table_2.foreign_key_column;`
+- `ALTER TABLE table_name DROP CONSTRAINT constraint_name;`
 
 ```
 SELECT columns FROM junction_table
