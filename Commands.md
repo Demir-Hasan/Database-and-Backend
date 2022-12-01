@@ -34,3 +34,6 @@ SELECT columns FROM junction_table
 FULL JOIN table_1 ON junction_table.foreign_key_column = table_1.primary_key_column
 FULL JOIN table_2 ON junction_table.foreign_key_column = table_2.primary_key_column;
 ```
+
+## One-to-Many Relationship
+- A junction table is used to connect data because there won't be a primary key for one of the tables
